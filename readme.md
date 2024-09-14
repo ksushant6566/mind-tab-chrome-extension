@@ -27,11 +27,11 @@ We welcome contributions to MindTab! Please see our [CONTRIBUTING.md](CONTRIBUTI
 
 ## 📄 License
 
-MindTab is released under the [MIT License](LICENSE).
+MindTab is released under the [LICENSE](LICENSE).
 
 ## 📞 Support
 
-If you encounter any issues or have questions, please file an issue on our [GitHub repository](https://github.com/yourusername/mindtab).
+If you encounter any issues or have questions, please file an issue on our [GitHub repository](https://github.com/ksushant6566/mindtab).
 
 ---
 
