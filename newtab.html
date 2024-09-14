@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>New Tab</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensure proper scaling -->
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      transform: none;
+    }
+    #app-container {
+      flex: 1;
+      display: flex;
+    }
+    #app-iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      transform: scale(1.0);
+      transform-origin: top left;
+      min-width: 100vw;
+      min-height: 100vh;
+    }
+  </style>
+</head>
+<body>
+  <div id="app-container">
+    <iframe id="app-iframe" src="https://mindtab.in"></iframe>
+  </div>
+</body>
+</html>
