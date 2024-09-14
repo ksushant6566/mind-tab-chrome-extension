@@ -27,7 +27,7 @@ We welcome contributions to MindTab! Please see our [CONTRIBUTING.md](CONTRIBUTI
 
 ## 📄 License
 
-MindTab is released under the [LICENSE](LICENSE).
+MindTab is released under the [LICENSE](LICENSE.md).
 
 ## 📞 Support
 
