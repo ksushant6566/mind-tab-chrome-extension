@@ -11,15 +11,16 @@ MindTab is a lightweight and intuitive Chrome extension designed to make goal tr
 
 ## 📥 Installation
 
-1. Visit the Chrome Web Store and search for "MindTab"
+1. Visit the MindTab [Chrome Web Store page](https://chromewebstore.google.com/detail/mindtab/ndnegdefonikfckhbgmejdodebnbhjll)
 2. Click "Add to Chrome" to install the extension
 3. Open a new tab to start using MindTab
 
 ## 🤔 How to Use
 
 1. Set your goals in the dedicated goal tracking section
-2. Use the micro journaling area to jot down quick thoughts or reflections
-3. Enjoy a distraction-free new tab experience focused on your personal growth
+2. Effortlessly setup habits you want to track
+3. Use the micro journaling area to jot down quick thoughts or reflections
+4. Enjoy a distraction-free new tab experience focused on your personal growth
 
 ## 🤝 Contributing
 
@@ -27,7 +28,7 @@ We welcome contributions to MindTab! Please see our [CONTRIBUTING.md](CONTRIBUTI
 
 ## 📄 License
 
-MindTab is released under the [LICENSE](LICENSE).
+MindTab is released under the [LICENSE](LICENSE.md).
 
 ## 📞 Support
 
