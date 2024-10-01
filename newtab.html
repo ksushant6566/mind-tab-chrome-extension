@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<!DOCTYPE html>
-<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>New Tab</title>
@@ -13,10 +11,13 @@
       height: 100%;
       overflow: hidden;
       transform: none;
+      background-color: #0a0a0a; /* Dark background */
+      color: #ffffff; /* Light text for better visibility */
     }
     #app-container {
       flex: 1;
       display: flex;
+      position: relative;
     }
     #app-iframe {
       width: 100%;
@@ -27,11 +28,36 @@
       min-width: 100vw;
       min-height: 100vh;
     }
+    /* Loader Styles */
+    #loader {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border: 3px solid #f3f3f3; /* Light grey */
+      border-top: 3px solid #3498db; /* Blue */
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      animation: spin 0.3s linear infinite;
+      z-index: 10; /* Ensure the loader is above other elements */
+    }
+
+    @keyframes spin {
+      0% { transform: translate(-50%, -50%) rotate(0deg); }
+      100% { transform: translate(-50%, -50%) rotate(360deg); }
+    }
   </style>
 </head>
 <body>
   <div id="app-container">
+    <div id="overlay">
+      <div id="loader"></div>
+    </div>
+
     <iframe id="app-iframe" src="https://mindtab.in"></iframe>
   </div>
+  
+  <script src="main.js"></script>
 </body>
 </html>

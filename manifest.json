@@ -26,6 +26,6 @@
 		{
 			"resources": ["app/*"],
 			"matches": ["https://mindtab.in/*"]
-		}
+	}
 	]
 }
