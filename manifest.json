@@ -1,12 +1,8 @@
 {
 	"manifest_version": 3,
-	"name": "New Tab",
-	"version": "1.0",
+	"name": "MindTab",
+	"version": "1.2",
 	"description": "Manage goals, track progress, note down ideas, and stay focused with MindTab.",
-	"permissions": [
-		"tabs",
-		"storage"
-	],
 	"host_permissions": [
 		"https://mindtab.in/*",
 		"https://*.mindtab.in/*"

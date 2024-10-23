@@ -4,34 +4,29 @@ function monitorIframeLoad() {
     const iframe = document.getElementById('app-iframe');
     const overlay = document.getElementById('overlay');
 
-    if (!iframe) {
-        return;
-    }
-
-    if (!overlay) {
+    if (!iframe || !overlay) {
         return;
     }
 
     // Initially show the loader and overlay
     overlay.style.display = 'block';
 
-    // Listen for the load event
-    iframe.addEventListener('load', () => {
-        // Hide the loader and overlay
+    // Function to hide the overlay
+    const hideOverlay = () => {
         overlay.style.display = 'none';
-        // Perform additional actions here if needed
-    });
+    };
 
-    // Listen for the error event (optional)
-    iframe.addEventListener('error', () => {
-        // Optionally hide the loader or display an error message
-        overlay.style.display = 'none';
-    });
+    // Listen for the load event
+    iframe.addEventListener('load', hideOverlay);
+
+    iframe.addEventListener('error', hideOverlay);
+
+    // Set a timeout to hide the overlay after 2 seconds
+    setTimeout(hideOverlay, 2000);
 
     // Log the initial loading state
-    console.log('loading...');
+    console.log('loading...');   
 }
-
 
 // Method: initializeIframeMonitoring
 document.addEventListener('DOMContentLoaded', () => {
